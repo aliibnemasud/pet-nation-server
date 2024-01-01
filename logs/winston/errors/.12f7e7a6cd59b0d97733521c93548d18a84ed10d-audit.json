@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Users\\User\\OneDrive\\Desktop\\Pet nation\\pet-nation-server\\logs\\winston\\errors\\.12f7e7a6cd59b0d97733521c93548d18a84ed10d-audit.json",
+    "files": [
+        {
+            "date": 1704083093960,
+            "name": "C:\\Users\\User\\OneDrive\\Desktop\\Pet nation\\pet-nation-server\\logs\\winston\\errors\\error-2024-01-01-10.log",
+            "hash": "6a8c0948d0a529f65c0e08cc3f2adf93d7c1e35ef0b066114aea960a47255efe"
+        }
+    ],
+    "hashType": "sha256"
+}

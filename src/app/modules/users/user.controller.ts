@@ -19,9 +19,7 @@ const createCustomer = catchAsync(async (req: Request, res: Response) => {
 });
 
 const createUser = async (req: Request, res: Response) => {
-      const { ...userData } = req.body;
-
-      console.log(req.body)
+      const { ...userData } = req.body;    
   
       /* const createdUser = await UserServices.createUser(
         academicFacultyData
