@@ -1,0 +1,30 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/ali/Desktop/Advanced Web Dev/Fiverr/pet-nation-server/logs/winston/successes/.1b3da5d1da73e847f0897c9a54a6ea85ab752737-audit.json",
+    "files": [
+        {
+            "date": 1704094489817,
+            "name": "/home/ali/Desktop/Advanced Web Dev/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-01-13.log",
+            "hash": "4231d37b0d71a768749a6b3706860c70cbd85d599a15baad1e8fce55fec7f442"
+        },
+        {
+            "date": 1704098791191,
+            "name": "/home/ali/Desktop/Advanced Web Dev/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-01-14.log",
+            "hash": "71214193d2a62a7c573f19d70293360371dadd3cc80d7159854ba7302cc1782f"
+        },
+        {
+            "date": 1704099876434,
+            "name": "/home/ali/Desktop/Advanced Web Dev/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-01-15.log",
+            "hash": "a9356a503e82717c550aa8b9addf3b5e7710758bda1a504c551560211cf309bb"
+        },
+        {
+            "date": 1704103385366,
+            "name": "/home/ali/Desktop/Advanced Web Dev/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-01-16.log",
+            "hash": "371eab4a9e731bd04a27a2835b54ecc25a1e045c91dd8148904482c9a2d403af"
+        }
+    ],
+    "hashType": "sha256"
+}
