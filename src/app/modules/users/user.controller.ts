@@ -17,9 +17,6 @@ const createCustomer = catchAsync(async (req: Request, res: Response) => {
     });
 });
 
-
-
-
 export const usersController = {
     createCustomer,
 };

@@ -9,6 +9,11 @@
             "date": 1705826161056,
             "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-21-14.log",
             "hash": "20c0cf80bf74604de1c0d41e884d3243e251f7521a4d7a6953e02b21203f73e1"
+        },
+        {
+            "date": 1705830586626,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-21-15.log",
+            "hash": "5085ff811a9bd6f87d7651308d2944b1d207cda18ea01f22e4724d822124263f"
         }
     ],
     "hashType": "sha256"
