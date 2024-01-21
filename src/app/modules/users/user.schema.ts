@@ -12,10 +12,10 @@ const userSchema = new Schema<IUser, Record<string, never>>(
       type: Boolean,
       default: true,
     },
-    /* customer: {
+    customer: {
       type: Schema.Types.ObjectId,
       ref: 'Customer',
-    }, */
+    }, 
   },
   { timestamps: true }
 );

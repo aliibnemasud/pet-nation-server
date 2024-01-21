@@ -47,26 +47,12 @@ const createCustomerService = async (
         await session.endSession();
         throw error;
     }
-
     if (newUserAllData) {
-        newUserAllData = await User.findOne({ id: newUserAllData.id })/* .populate({
-            path: 'customer',
-        }); */
+        newUserAllData = await User.findOne({ id: newUserAllData.id })
     }
     return newUserAllData;
 };
 
-/* const createUser = async (
-    payload: IUser
-): Promise<IUser> => {
-    console.log(payload)
-    const result = await User.create(payload);
-    return result;
-}; */
-
-
-
 export const UserServices = {
-    createCustomerService,
-    // createUser
+    createCustomerService
 };

@@ -11,6 +11,6 @@ app.get("/", (req: Request, res: Response) => {
   res.send("Pet Nation web server is running......!");
 });
 
-app.use("/api/v1", router);
+app.use("/api/v1/", router);
 
 export default app;

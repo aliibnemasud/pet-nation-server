@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/successes/.e247f39ce28fe81e30367e8069747d660b7f92f2-audit.json",
+    "files": [
+        {
+            "date": 1705826161054,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-21-14.log",
+            "hash": "e621c23b0da1f0d51d961404562e9b0f45cd29a3bd9833b2e48eb59d72564a50"
+        }
+    ],
+    "hashType": "sha256"
+}
