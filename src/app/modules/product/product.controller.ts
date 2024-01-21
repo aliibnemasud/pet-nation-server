@@ -15,8 +15,16 @@ const createProduct = catchAsync(async (req: Request, res: Response) => {
 });
 
 
+const uploadImages = catchAsync(async (req: Request, res: Response) => {
+    try {
+      res.status(200).json(req.file);
+    } catch (error) {
+      console.log(error);
+    }
+  })
 
 
 export const productController = {
     createProduct,
+    uploadImages
 };
