@@ -15,6 +15,6 @@ app.get("/", (req: Request, res: Response) => {
 app.use("/api/v1/", router);
 
 //  This is using to make upload images folder public accessible
-app.use("/images", express.static(path.join(__dirname, "..", "upload_images")));
+app.use("/upload_images", express.static(path.join(__dirname, "..", "upload_images")));
 
 export default app;

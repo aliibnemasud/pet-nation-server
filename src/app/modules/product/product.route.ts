@@ -4,7 +4,7 @@ import uploader from '../../../util/uploader';
 
 const router = express.Router();
 
-router.post('/create-product', productController.createProduct);
+router.post('/create-product', uploader.single("productImage"), productController.createProduct);
 
 router.post('/upload', uploader.single("image"), productController.uploadImages);
 

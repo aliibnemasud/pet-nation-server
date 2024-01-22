@@ -5,7 +5,12 @@ import { ProductServices } from './product.services';
 
 
 const createProduct = catchAsync(async (req: Request, res: Response) => {
-    const { ...product } = req.body;
+    const { ...data } = req.body;
+    const product = JSON.parse(data.product);    
+    if(req.file){
+       product.productImage = req.file.path;
+    }
+
    const createdUser = await ProductServices.createProductService(product);
     res.send({
         success: true,
@@ -13,7 +18,6 @@ const createProduct = catchAsync(async (req: Request, res: Response) => {
         data: createdUser,
     });
 });
-
 
 const uploadImages = catchAsync(async (req: Request, res: Response) => {
     try {
