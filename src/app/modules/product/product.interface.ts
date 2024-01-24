@@ -8,4 +8,7 @@ export type IProduct = {
     productImage?: string;
 };
 
+
+export type IProductFilter = { searchTerm: string };
+
 export type IProductModel = Model<IProduct>;
