@@ -10,8 +10,6 @@ const createProductService= async (product: IProduct ): Promise<IProduct | null>
     const addedProduct = Product.create(product);    
     return addedProduct;
 };
-
-
 const getProducts = async (
     filters: IProductFilter,
     paginationOption: IPaginationOption
@@ -69,8 +67,6 @@ const getProducts = async (
       data: result,
     };
 };
-
-
 const getSingleProduct = async (
     id: string
   ): Promise<IProduct | null> => {

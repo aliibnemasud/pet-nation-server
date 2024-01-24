@@ -12,7 +12,7 @@ const createProduct = catchAsync(async (req: Request, res: Response) => {
     const { ...data } = req.body;
     const product = JSON.parse(data.product);    
     if(req.file){
-       product.productImage = req.file.path;
+       product.productImage = `http://localhost:5000/${req.file.path}`;
     }
    const createdUser = await ProductServices.createProductService(product);
     res.send({

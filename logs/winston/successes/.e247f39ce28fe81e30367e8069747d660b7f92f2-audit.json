@@ -54,6 +54,11 @@
             "date": 1706058477035,
             "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-24-07.log",
             "hash": "dd8b23b4c2b091fa7d48ab9c9ecbe9ee00de140000d18f7e276354807c3b499b"
+        },
+        {
+            "date": 1706062573403,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-24-08.log",
+            "hash": "964f8351b0f4328aced2cd07d7237fc2f7528112647b8176ee092fed5b4d89f1"
         }
     ],
     "hashType": "sha256"
