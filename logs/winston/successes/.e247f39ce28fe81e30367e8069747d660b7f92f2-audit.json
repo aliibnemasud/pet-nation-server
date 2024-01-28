@@ -59,6 +59,16 @@
             "date": 1706062573403,
             "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-24-08.log",
             "hash": "964f8351b0f4328aced2cd07d7237fc2f7528112647b8176ee092fed5b4d89f1"
+        },
+        {
+            "date": 1706102027458,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-24-19.log",
+            "hash": "d22fa77f64c5454ea76747864ecd14a54451e4b9cf90f5abbb2530ba2d8d84d2"
+        },
+        {
+            "date": 1706404747767,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/successes/success-2024-01-28-07.log",
+            "hash": "ef8a7c0b52685e08aecd72548899ea21ca2d514f66423624f1677d89b28bd748"
         }
     ],
     "hashType": "sha256"
