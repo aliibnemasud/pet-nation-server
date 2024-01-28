@@ -20,20 +20,20 @@ app.get("/", (req: Request, res: Response) => {
 app.use("/api/v1/", router);
 
 try {
-  app.post("/create-payment-intent", async (req, res) => {
-    const { price } = req.body;
-    const amount = price * 100;
+  app.post("/create-payment-intent", async (req, res) => {    
+    
+  const amount = +(req.body.totalPrice) * 100; 
     if (amount) {
       const paymentIntent = await stripe.paymentIntents.create({
         amount: amount,
         currency: "usd",
         payment_method_types: ["card"],
       });
-
       res.send({
         clientSecret: paymentIntent.client_secret,
       });
-    }  
+    }
+    
   });
 } catch (error) {
   console.log(error);

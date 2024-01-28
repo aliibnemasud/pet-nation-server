@@ -69,6 +69,31 @@
             "date": 1706404747770,
             "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-28-07.log",
             "hash": "7d2fc46d312686d65363abb27b2236b9827f338a58fc7f44661049d0952d846d"
+        },
+        {
+            "date": 1706407249128,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-28-08.log",
+            "hash": "d8e220e7cf0e02a41280b2fb64da8683523f3c4ed66522d57166dad6e8acc774"
+        },
+        {
+            "date": 1706412116480,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-28-09.log",
+            "hash": "c54c9aae854d42c266c8eb29a7a33332068f6567e694ed37b3ed4a5d734311e7"
+        },
+        {
+            "date": 1706421314515,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-28-11.log",
+            "hash": "d72fedd597944d56d89c508dad77ec6d1a0857fc8d6ed7a915972223462ad07b"
+        },
+        {
+            "date": 1706421611976,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-28-12.log",
+            "hash": "cd7ae486b76d95952f6d570f3cd3933c890209d233ae64338962dae826fa3bd9"
+        },
+        {
+            "date": 1706425209687,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-28-13.log",
+            "hash": "5cba2e30450080d4b866fe34b7fafbca18dbfeb825ee7ef348805c16345ea956"
         }
     ],
     "hashType": "sha256"
