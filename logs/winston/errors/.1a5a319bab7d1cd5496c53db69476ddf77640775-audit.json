@@ -94,6 +94,21 @@
             "date": 1706425209687,
             "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-28-13.log",
             "hash": "5cba2e30450080d4b866fe34b7fafbca18dbfeb825ee7ef348805c16345ea956"
+        },
+        {
+            "date": 1706499622201,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-29-09.log",
+            "hash": "5df2d6f9859559fe35eb218d24c920c899bcba101f95a190b0b785a510be2cd9"
+        },
+        {
+            "date": 1706606157021,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-01-30-15.log",
+            "hash": "686bdd96a92d3972f6abb2a7599515dbf92cdb55b59aaf793050ccc2bf493c8e"
+        },
+        {
+            "date": 1706767842773,
+            "name": "/home/ali/Desktop/Fiverr/pet-nation-server/logs/winston/errors/error-2024-02-01-12.log",
+            "hash": "72abc5aaa026dc1a85a379d08779bf9ad059f49b4bc1600b7e4047de5d6bfaaa"
         }
     ],
     "hashType": "sha256"

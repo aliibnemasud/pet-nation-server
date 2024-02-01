@@ -9,6 +9,10 @@ export type IOrder = {
   products: IProduct[];
   totalAmount: string;
   transactionId: string;
+  name: string,
+  email: string,
+  phone: string,
+  address: string
 }
 
 export type IOrderFilter = { searchTerm: string };
