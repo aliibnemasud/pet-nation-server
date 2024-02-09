@@ -74,30 +74,30 @@ const getSingleProduct = async (
     return result;
 };
 
-const updateProductById = async (
-    id: string,
-    payload: Partial<IProduct>
-  ): Promise<IProduct | null> => {
+// const updateProductById = async (
+//     id: string,
+//     payload: Partial<IProduct>
+//   ): Promise<IProduct | null> => {
 
-    const result = await Product.findByIdAndUpdate(
-      { _id: id },
-      payload,
-      { new: true }
-    );
-    return result;
-};
+//     const result = await Product.findByIdAndUpdate(
+//       { _id: id },
+//       payload,
+//       { new: true }
+//     );
+//     return result;
+// };
 
-const deleteProductById = async (
-    id: string
-  ): Promise<IProduct | null> => {
-    const result = await Product.findByIdAndDelete(id);
-    return result;
-};
+// const deleteProductById = async (
+//     id: string
+//   ): Promise<IProduct | null> => {
+//     const result = await Product.findByIdAndDelete(id);
+//     return result;
+// };
 
 export const ProductServices = {
     createProductService,
     getProducts,
     getSingleProduct,
-    updateProductById,
-    deleteProductById
+    // updateProductById,
+    // deleteProductById
 };
