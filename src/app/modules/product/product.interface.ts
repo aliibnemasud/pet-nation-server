@@ -1,4 +1,6 @@
-import { Model } from "mongoose";
+import { Document, Model } from "mongoose";
+
+export type IProductDocument = Document & IProduct;
 
 export type IProduct = {  
     name: string;
@@ -8,7 +10,11 @@ export type IProduct = {
     productImage?: string;
 };
 
-
 export type IProductFilter = { searchTerm: string };
 
-export type IProductModel = Model<IProduct>;
+export type IProductModel = Model<IProductDocument>;
+
+
+
+
+

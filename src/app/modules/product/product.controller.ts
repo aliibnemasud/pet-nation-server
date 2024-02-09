@@ -53,7 +53,7 @@ const getSingleProduct = catchAsync(async (req: Request, res: Response) => {
   });
 });
 
-/* const updateProduct = catchAsync(async (req: Request, res: Response) => {
+const updateProduct = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
   const payload = req.body;
   const result = await ProductServices.updateProductById(id, payload);
@@ -77,7 +77,7 @@ const deleteProduct = catchAsync(async (req: Request, res: Response) => {
     message: 'Semester deleted successfully!',
     data: result,
   });
-}); */
+});
 
 
 const uploadImages = catchAsync(async (req: Request, res: Response) => {
@@ -94,6 +94,6 @@ export const productController = {
     uploadImages,
     getAllProduct,
     getSingleProduct,
-    /* updateProduct,
-    deleteProduct */
+    updateProduct,
+    deleteProduct
 };
