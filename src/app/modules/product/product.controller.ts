@@ -22,7 +22,6 @@ const createProduct = catchAsync(async (req: Request, res: Response) => {
     });
 });
 
-
 const getAllProduct: RequestHandler = catchAsync(
   async (req: Request, res: Response) => {
     const filters: any = pick(req.query, searchableFields);
@@ -31,11 +30,10 @@ const getAllProduct: RequestHandler = catchAsync(
       filters,
       paginationOptions
     );
-
     sendResponse<IProduct[]>(res, {
       statusCode: httpStatus.OK,
       success: true,
-      message: 'Semesters data retrieved!',
+      message: 'Product data retrieved!',
       data: result.data,
       meta: result.meta,
     });
@@ -48,7 +46,7 @@ const getSingleProduct = catchAsync(async (req: Request, res: Response) => {
   sendResponse<IProduct>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Semester data retrieved!',
+    message: 'Product data retrieved!',
     data: result,
   });
 });
@@ -74,7 +72,7 @@ const deleteProduct = catchAsync(async (req: Request, res: Response) => {
   sendResponse<IProduct>(res, {
     statusCode: httpStatus.OK,
     success: true,
-    message: 'Semester deleted successfully!',
+    message: 'Product deleted successfully!',
     data: result,
   });
 });

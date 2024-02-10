@@ -67,6 +67,7 @@ const getProducts = async (
     data: result,
   };
 };
+
 const getSingleProduct = async (
   id: string
 ): Promise<IProduct | null> => {
