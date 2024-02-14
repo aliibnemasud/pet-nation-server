@@ -12,7 +12,10 @@ export type IOrder = {
   name: string,
   email: string,
   phone: string,
-  address: string
+  address: string,
+  streetAddress: string,
+  town: string,
+  zipCode: string
 }
 
 export type IOrderFilter = { searchTerm: string };

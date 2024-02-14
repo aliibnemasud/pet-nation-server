@@ -38,6 +38,18 @@ const orderSchema = new Schema<IOrder>({
   address: {
     type: String,
     required: true
+   },
+  streetAddress: {
+    type: String,
+    required: true
+   },
+  town: {
+    type: String,
+    required: true
+   },
+  zipCode: {
+    type: String,
+    required: true
    }
 },
 {
