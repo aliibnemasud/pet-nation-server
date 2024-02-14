@@ -1,3 +1,3 @@
 export const orderSearchableFields = ['name', 'code'];
 
-export const orderSearchableFieldsDirect = [];
+export const orderSearchableFieldsDirect = ['email'];
