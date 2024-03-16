@@ -21,7 +21,6 @@ app.use("/api/v1/", router);
 
 try {
   app.post("/create-payment-intent", async (req, res) => {    
-    
   const amount = +(req.body.totalPrice) * 100; 
     if (amount) {
       const paymentIntent = await stripe.paymentIntents.create({
@@ -38,9 +37,6 @@ try {
 } catch (error) {
   console.log(error);
 }
-
-
-
 //  This is using to make upload images folder public accessible
 app.use("/upload_images", express.static(path.join(__dirname, "..", "upload_images")));
 
